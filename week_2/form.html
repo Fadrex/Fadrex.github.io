@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    p, form{
+        color: gold;
+        font-family: cursive;
+        font-size: 15px;
+    }
+</style>
+
+<body style="background-color: dimgrey;">
+    <form>
+        <label for="username">Enter your username</label>
+        <input type="text" id="username" placeholder="input your username">
+        <br><br>
+        <label for="user_mail">Enter your email</label>
+        <input type="email" id="user_email" placeholder="email">
+        <br><br>
+        <label for="User_password">Enter your password</label>
+        <input type="password" id="User_password" placeholder="password">
+
+        <p>select your gender</p>
+        <input type="radio" id="male" name="gender">
+        <label for="male">male</label>
+
+        <input type="radio" id="female" name="gender">
+        <label for="female">female</label>
+
+        <input type="radio" id="others" name="gender">
+        <label for="others">others</label>
+        <br><br>
+
+        <label for="questions">Pick one security question</label>
+        <select name="Security_question" id="questions">
+            <option value="pet name">what is your pet name</option>
+            <option value="pet best food">what is your pet favourite food</option>
+            <option value="pet favourites colour">what is your pet favourite color</option>
+        </select>
+        <br><br>
+        <label for="Answer">Pick one security answer</label>
+        <select name="Security_Answer" id="Answer">
+            <option value="German Shepard">German Shepard</option>
+            <option value="Noodles">Noodles</option>
+            <option value="Black">Black</option>
+        </select>
+        <br><br>
+        <label for="bio">Your Bio :</label> <br> <br>
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Tell us about yourself"></textarea>
+        <br><br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+
+</html>
