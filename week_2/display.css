@@ -1,0 +1,20 @@
+h2 {
+    background-color: dodgerblue;
+    margin-top : 20px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 75px;
+}
+h3 {
+    padding: 20px 50px;
+}
+span ,em {
+    display: block;
+    margin: 40px 20px 30px 20px ;
+    /* margin: 40px 20px; */
+}
+
+div{
+    display: inline-block;
+    margin: 30px;
+}
